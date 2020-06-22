@@ -1,11 +1,20 @@
 import React from 'react'
-const Recepie=({title,calories,image})=>{
+import Style from './recepies.module.css'
+const Recepie=({title,calories,image,ingredients})=>{
 return (
 
-    <div >
-      <h1>{title}</h1>
-<p>{calories}</p>
-      <img src={image} alt='bla bla'/>
+    <div className={Style.recepies} >
+          <h1>{title}</h1>
+          <ol>
+       {ingredients && ingredients.map(ingredient=>(
+            <li>
+                  {ingredient.text}
+            </li>
+            ))}         
+          </ol>
+      
+      <p>{calories}</p>
+      <img  className={Style.image}src={image} alt='bla bla'/>
 
        </div>
 );
