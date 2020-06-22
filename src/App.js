@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Style from './App.css'
+import './App.css'
 import Recepie from './recepie'
 import axios from "axios";
 const App=()=>{
