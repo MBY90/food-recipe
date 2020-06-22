@@ -33,7 +33,7 @@ setQuery(search);
  return (  
      <div  className="App">
       <form onSubmit={getSearsh} className="search-form">
-        <input className="search-bar"type="text" value={search} onChange={updateSearsh}/>
+        <input placeholder="default searsh is cheese" className="search-bar"type="text" value={search} onChange={updateSearsh}/>
         <button className="search-button" type="submit">Search</button>
       </form>
 
