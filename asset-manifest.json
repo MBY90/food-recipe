@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/food-recipe/static/css/main.3f92da09.chunk.css",
+    "main.js": "/food-recipe/static/js/main.6ff6d310.chunk.js",
+    "main.js.map": "/food-recipe/static/js/main.6ff6d310.chunk.js.map",
+    "runtime-main.js": "/food-recipe/static/js/runtime-main.559844aa.js",
+    "runtime-main.js.map": "/food-recipe/static/js/runtime-main.559844aa.js.map",
+    "static/js/2.585003c3.chunk.js": "/food-recipe/static/js/2.585003c3.chunk.js",
+    "static/js/2.585003c3.chunk.js.map": "/food-recipe/static/js/2.585003c3.chunk.js.map",
+    "index.html": "/food-recipe/index.html",
+    "precache-manifest.3dafedf3d8acec2f0e3e5d700bd84f94.js": "/food-recipe/precache-manifest.3dafedf3d8acec2f0e3e5d700bd84f94.js",
+    "service-worker.js": "/food-recipe/service-worker.js",
+    "static/css/main.3f92da09.chunk.css.map": "/food-recipe/static/css/main.3f92da09.chunk.css.map",
+    "static/js/2.585003c3.chunk.js.LICENSE.txt": "/food-recipe/static/js/2.585003c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.559844aa.js",
+    "static/js/2.585003c3.chunk.js",
+    "static/css/main.3f92da09.chunk.css",
+    "static/js/main.6ff6d310.chunk.js"
+  ]
+}
