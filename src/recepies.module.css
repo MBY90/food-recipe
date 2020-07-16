@@ -1,8 +1,8 @@
 .recepies{
-    border-radius: 10px;
-    box-shadow:0px 5px 20px aqua;
-    margin:20px;
-    display:flex;
+border-radius: 10px;
+box-shadow:0px 5px 20px aqua;
+margin:20px;
+display:flex;
 flex-direction:column;
 justify-content:space-around;
 background: white;
@@ -10,7 +10,8 @@ align-items:center;
 min-width: 40%;
 }
 .image{
-border-radius:50%;
+
 width:100px;
 height:100px;
+border-radius:50%;
 }

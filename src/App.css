@@ -22,5 +22,6 @@ background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%
 .recepies{
   display:flex;
   justify-content:space-arount;
- flex-wrap:wrap
+  flex-wrap:wrap
+
 }

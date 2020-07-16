@@ -3,12 +3,12 @@ import './App.css'
 import Recepie from './recepie'
 import axios from "axios";
 const App=()=>{
-  const APP_ID='10d14ae2';
-  const APP_KEY='e2fe97c9089d2fabcfb3757b1f9d11ea';
- const [recepies, setRecepies] = useState([]);
- const [search, setSearch]=useState("");
- const [query,setQuery]=useState("cheese");
- useEffect(() => {
+const APP_ID='10d14ae2';
+const APP_KEY='e2fe97c9089d2fabcfb3757b1f9d11ea';
+const [recepies, setRecepies] = useState([]);
+const [search, setSearch]=useState("");
+const [query,setQuery]=useState("cheese");
+useEffect(() => {
 
    const fetchData = async () => {
     const data = await axios.get(
